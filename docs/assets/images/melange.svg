@@ -1,0 +1,8 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Mélange</title><desc id="desc">Homogénéisation de la préparation</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff1f5"/><stop offset="1" stop-color="#e8f2ff"/></linearGradient><linearGradient id="metal" x2="0" y2="1"><stop stop-color="#f9fbff"/><stop offset="1" stop-color="#b9c9d9"/></linearGradient></defs>
+<rect width="640" height="420" rx="28" fill="url(#bg)"/>
+<circle cx="535" cy="78" r="34" fill="#fff" opacity=".65"/><circle cx="92" cy="330" r="48" fill="#fff" opacity=".45"/>
+<rect x="170" y="128" width="300" height="165" rx="24" fill="url(#metal)" stroke="#71869b" stroke-width="5"/><path d="M190 210h260v60H190z" fill="#e9a2be"/><path d="M320 82v100m-58-8 58 8 58-8" fill="none" stroke="#647b91" stroke-width="12" stroke-linecap="round"/><path d="M320 181c-40 30-35 65 0 75 35-10 40-45 0-75z" fill="#d65b92"/><circle cx="238" cy="166" r="9" fill="#fff"/><circle cx="402" cy="166" r="9" fill="#fff"/>
+<text x="320" y="365" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#35445d">Mélange</text>
+<text x="320" y="394" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#64748b">Homogénéisation de la préparation</text></svg>
