@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ligne de production SweetFactory</title>
+  <desc id="desc">Illustration pédagogique en cinq postes : dosage, mélange, moulage, refroidissement et conditionnement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff5f8"/><stop offset="1" stop-color="#f0f5ff"/></linearGradient>
+    <linearGradient id="belt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58647d"/><stop offset="1" stop-color="#303b55"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#26324a" flood-opacity=".13"/></filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="70" r="48" fill="#ffd9e7" opacity=".65"/><circle cx="90" cy="430" r="62" fill="#dce8ff" opacity=".7"/>
+  <text x="60" y="65" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4" fill="#b34c78">SWEETFACTORY · PROCESS OVERVIEW</text>
+  <text x="60" y="112" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#26324a">Une ligne, cinq étapes</text>
+  <text x="60" y="145" font-family="Arial,sans-serif" font-size="17" fill="#69748a">Schéma de principe pédagogique — installation fictive</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="190" width="205" height="210" rx="18" fill="#fff" stroke="#f0c4d5"/>
+    <rect x="285" y="190" width="205" height="210" rx="18" fill="#fff" stroke="#f0c4d5"/>
+    <rect x="515" y="190" width="205" height="210" rx="18" fill="#fff" stroke="#f0c4d5"/>
+    <rect x="745" y="190" width="205" height="210" rx="18" fill="#fff" stroke="#f0c4d5"/>
+    <rect x="975" y="190" width="170" height="210" rx="18" fill="#fff" stroke="#f0c4d5"/>
+  </g>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(157 250)">
+      <path d="M-42 -25 H42 L30 15 H-30Z" fill="#f7c5d8" stroke="#b34c78" stroke-width="4"/><path d="M-30 15 V45 H30 V15" fill="#fff0f5" stroke="#b34c78" stroke-width="4"/><path d="M0 -55 V-25" stroke="#b34c78" stroke-width="5" stroke-linecap="round"/><path d="M-12 -55 H12" stroke="#b34c78" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="-12" cy="0" r="5" fill="#d76a9a"/><circle cx="8" cy="5" r="5" fill="#d76a9a"/>
+    </g>
+    <g transform="translate(387 250)">
+      <rect x="-42" y="-35" width="84" height="80" rx="15" fill="#e4ecff" stroke="#6681bd" stroke-width="4"/><path d="M-24 -2 Q0 18 24 -2 M0 -30 V20 M-13 -17 L13 9" fill="none" stroke="#6681bd" stroke-width="5" stroke-linecap="round"/><path d="M-15 45 V55 M15 45 V55" stroke="#6681bd" stroke-width="5"/>
+    </g>
+    <g transform="translate(617 250)">
+      <rect x="-48" y="-22" width="96" height="65" rx="10" fill="#fff0c9" stroke="#c28b35" stroke-width="4"/><path d="M-32 -22 V-42 H-12 V-22 M12 -22 V-42 H32 V-22" fill="none" stroke="#c28b35" stroke-width="4"/><g fill="#e7a94f"><circle cx="-25" cy="8" r="7"/><circle cx="0" cy="8" r="7"/><circle cx="25" cy="8" r="7"/></g>
+    </g>
+    <g transform="translate(847 250)">
+      <rect x="-48" y="-35" width="96" height="80" rx="12" fill="#dff4ee" stroke="#4a9b85" stroke-width="4"/><path d="M-28 -17 H28 M-28 0 H28 M-28 17 H28" stroke="#4a9b85" stroke-width="4" stroke-linecap="round"/><path d="M-32 -50 L-22 -60 M0 -50 V-65 M32 -50 L22 -60" stroke="#4a9b85" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(1060 250)">
+      <path d="M-35 -30 H35 L28 45 H-28Z" fill="#f4e5ff" stroke="#9870b8" stroke-width="4"/><path d="M-35 -30 Q0 -48 35 -30" fill="none" stroke="#9870b8" stroke-width="4"/><path d="M-23 0 H23 M-20 14 H20" stroke="#9870b8" stroke-width="4" stroke-linecap="round"/><circle cx="0" cy="-8" r="7" fill="#c28bdf"/>
+    </g>
+    <g fill="#26324a" font-size="18" font-weight="700">
+      <text x="157" y="340">01 · DOSAGE</text><text x="387" y="340">02 · MÉLANGE</text><text x="617" y="340">03 · MOULAGE</text><text x="847" y="340">04 · FROID</text><text x="1060" y="340">05 · PACK</text>
+    </g>
+    <g fill="#69748a" font-size="13">
+      <text x="157" y="366">Préparer</text><text x="387" y="366">Homogénéiser</text><text x="617" y="366">Former</text><text x="847" y="366">Stabiliser</text><text x="1060" y="366">Compter</text>
+    </g>
+  </g>
+  <path d="M70 430 H1130" stroke="url(#belt)" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#d8dfeb"><circle cx="105" cy="430" r="8"/><circle cx="210" cy="430" r="8"/><circle cx="315" cy="430" r="8"/><circle cx="420" cy="430" r="8"/><circle cx="525" cy="430" r="8"/><circle cx="630" cy="430" r="8"/><circle cx="735" cy="430" r="8"/><circle cx="840" cy="430" r="8"/><circle cx="945" cy="430" r="8"/><circle cx="1050" cy="430" r="8"/></g>
+  <text x="600" y="485" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#7b8497">Illustration originale créée pour SweetFactory Demo</text>
+</svg>
