@@ -3,7 +3,7 @@ description: Découvrir la conception d'une mini-ligne automatisée de fabricati
 lang: fr
 gh_edit_repository: "https://github.com/Dikoums595/SweetFactory-Demo"
 theme: just-the-docs
-color_scheme: light
+color_scheme: dark
 search_enabled: true
 search:
   button: true
