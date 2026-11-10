@@ -1,60 +1,59 @@
-# SweetFactory Demo 🍬
+# SweetFactory 🍬
 
-> **Projet pédagogique fictif** : découverte de la conception et de la documentation d'une petite ligne automatisée de fabrication de bonbons.
+**Une mini-usine fictive pour découvrir les procédés industriels, l'automatisation et la documentation technique.**
 
-## 1. Présentation
+SweetFactory est un projet pédagogique indépendant : il sert de terrain d'entraînement pour apprendre à structurer un projet sur GitHub et présenter une petite ligne automatisée de fabrication de bonbons gélifiés.
 
-SweetFactory est une mini-usine imaginaire qui illustre les principales étapes d'une chaîne de fabrication de bonbons gélifiés. Le projet sert de bac à sable pour apprendre à organiser un dépôt GitHub, documenter un système industriel et présenter progressivement ses éléments techniques.
+> Ce projet est entièrement fictif. Les équipements, scénarios et paramètres sont illustratifs ; ils ne constituent pas des instructions de fabrication alimentaire ni un programme destiné à piloter une installation réelle.
 
-Il ne décrit pas une installation industrielle réelle et ses paramètres sont uniquement illustratifs.
+## Documentation du projet
 
-## 2. Objectifs pédagogiques
+La documentation est organisée comme un carnet de conception :
 
-- Décomposer un procédé de fabrication en étapes.
-- Identifier les équipements, capteurs et actionneurs d'une ligne.
-- Représenter le fonctionnement avec un synoptique.
-- Décrire une logique d'automatisation simple.
-- Apprendre à versionner et documenter un projet avec Git et GitHub.
+- **Accueil** : présentation et vue d'ensemble.
+- **Procédé** : dosage, mélange, moulage, refroidissement et conditionnement.
+- **Équipements** : machines, capteurs et actionneurs proposés.
+- **Automatisation** : séquence fonctionnelle et variables de simulation.
+- **Journal de bord** : décisions, essais et prochaines étapes.
 
-## 3. Procédé étudié
+Le site est construit avec **Jekyll** et le thème **Just the Docs**, dans l'esprit du modèle de documentation du MakerSpace d'Amiens.
 
-Le procédé fictif est découpé en cinq étapes :
-
-1. **Dosage** : préparation des ingrédients.
-2. **Mélange** : homogénéisation de la préparation.
-3. **Moulage** : remplissage des moules.
-4. **Refroidissement** : solidification des bonbons.
-5. **Conditionnement** : comptage et mise en sachet.
-
-## 4. Organisation prévue du dépôt
+## Organisation du dépôt
 
 ```text
 SweetFactory-Demo/
-├── README.md
+├── .github/
+│   └── workflows/
+│       └── pages.yml       # Construction et publication du site
 ├── docs/
-│   ├── index.md
-│   ├── production.md
-│   └── images/
-└── project/
-    ├── process/
-    └── automation/
+│   ├── _config.yml         # Configuration Jekyll
+│   ├── _includes/          # Personnalisation de l'affichage
+│   ├── assets/images/      # Illustrations du site
+│   ├── index.md            # Accueil
+│   ├── procede.md
+│   ├── equipements.md
+│   ├── automatisation.md
+│   ├── journal.md
+│   └── Gemfile             # Dépendances du site
+├── project/
+│   └── README.md           # Sources et fichiers techniques
+└── README.md
 ```
 
-Les dossiers seront complétés au fur et à mesure des exercices. Les images ajoutées devront être libres d'utilisation ou créées pour le projet.
+## Consulter le site
 
-## 5. État d'avancement
+Après activation de GitHub Pages avec la source **GitHub Actions** et réussite du premier déploiement, le site sera disponible à l'adresse :
 
-- [x] Création du dépôt GitHub.
-- [x] Rédaction de la présentation initiale.
-- [ ] Décrire chaque étape du procédé.
-- [ ] Réaliser un synoptique de la ligne.
-- [ ] Lister les capteurs et actionneurs fictifs.
-- [ ] Ajouter des illustrations.
-- [ ] Proposer une séquence d'automatisation pédagogique.
+https://dikoums595.github.io/SweetFactory-Demo/
 
-## 6. Note
+## Contribuer
 
-Ce dépôt est un exemple indépendant, créé pour apprendre GitHub et les bonnes pratiques de documentation. Il ne doit pas être confondu avec un projet industriel réel.
+1. Créer une branche pour une nouvelle fonctionnalité ou une correction.
+2. Modifier les pages ou les fichiers concernés.
+3. Vérifier le rendu du site.
+4. Proposer une Pull Request vers `main`.
+
+Les noms de fichiers doivent rester courts, explicites et sans espaces ni accents.
 
 ---
 
