@@ -1,0 +1,17 @@
+<!-- Mermaid : transforme les blocs de code ```mermaid en diagrammes interactifs. -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.mermaid) {
+      mermaid.initialize({ startOnLoad: true, theme: "neutral", securityLevel: "strict" });
+    }
+  });
+</script>
+
+<style>
+  .main-content h1 { color: #9f3f6a; }
+  .main-content h2 { color: #455779; }
+  .main-content table { border-radius: 10px; overflow: hidden; }
+  .main-content img { border-radius: 14px; }
+  .site-title { letter-spacing: .02em; }
+</style>
