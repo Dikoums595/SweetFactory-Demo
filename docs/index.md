@@ -5,11 +5,11 @@ nav_order: 1
 permalink: /
 ---
 
-# SweetFactory
+# choholat
 
 ## De l'idée au bonbon : comprendre une ligne de production automatisée
 
-SweetFactory est un projet pédagogique fictif qui présente le fonctionnement d'une petite usine de bonbons gélifiés. Il sert de support pour découvrir les procédés industriels, les équipements, les capteurs, les actionneurs et les bases de l'automatisation.
+Choholat est un projet pédagogique fictif qui présente le fonctionnement d'une petite usine de bonbons gélifiés. Il sert de support pour découvrir les procédés industriels, les équipements, les capteurs, les actionneurs et les bases de l'automatisation.
 
 ![Illustration originale de la ligne de production SweetFactory](assets/images/ligne-sweetfactory.svg)
 
@@ -33,6 +33,31 @@ SweetFactory est un projet pédagogique fictif qui présente le fonctionnement d
 | **Finalité** | Apprentissage de la documentation technique et de GitHub |
 
 ## Les cinq étapes de fabrication
+
+Passe la souris sur une illustration pour la voir s'agrandir. Tu peux aussi sélectionner une carte au clavier.
+
+<div class="image-gallery">
+  <a class="image-card" href="procede#dosage" aria-label="Découvrir le dosage">
+    <img src="assets/images/dosage.svg" alt="Illustration de l'étape de dosage" loading="lazy">
+    <span>1. Dosage</span>
+  </a>
+  <a class="image-card" href="procede#melange" aria-label="Découvrir le mélange">
+    <img src="assets/images/melange.svg" alt="Illustration de l'étape de mélange" loading="lazy">
+    <span>2. Mélange</span>
+  </a>
+  <a class="image-card" href="procede#moulage" aria-label="Découvrir le moulage">
+    <img src="assets/images/moulage.svg" alt="Illustration de l'étape de moulage" loading="lazy">
+    <span>3. Moulage</span>
+  </a>
+  <a class="image-card" href="procede#refroidissement" aria-label="Découvrir le refroidissement">
+    <img src="assets/images/refroidissement.svg" alt="Illustration de l'étape de refroidissement" loading="lazy">
+    <span>4. Refroidissement</span>
+  </a>
+  <a class="image-card" href="procede#conditionnement" aria-label="Découvrir le conditionnement">
+    <img src="assets/images/conditionnement.svg" alt="Illustration de l'étape de conditionnement" loading="lazy">
+    <span>5. Conditionnement</span>
+  </a>
+</div>
 
 1. **Dosage** — préparer les ingrédients selon une recette fictive.
 2. **Mélange** — obtenir une préparation homogène.
